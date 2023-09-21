@@ -1,0 +1,56 @@
+@charset "utf-8";
+@import "https://fonts.googleapis.com/css?family=Noto+Serif";
+
+html, body{
+    height: 100%;
+    background-color: black;
+}
+
+nav#navMenu ul {
+    background-color: lightblue;
+    margin: -10px -8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 7px 7px 36px 7px black;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+
+  nav#navMenu ul li {
+    display: inline-block;
+    margin: 20px 10px;
+  }
+
+  nav#navMenu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  nav#navMenu ul li a:hover {
+    color: aqua;
+  }
+
+
+h1{
+    background-color: rgb(10, 10, 10);
+    text-align: center;
+    font-size: 30pt;
+    display: block;
+    margin-right: -8px;
+    margin-left: -8px;
+    box-shadow: 1px 1px 40px, black;
+    color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer p{
+    
+    background-color: lightblue;
+    text-align: center;
+    text-indent: 20pt;
+    color: black;
+}
